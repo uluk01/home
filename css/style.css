@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a, ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#homes {
+    padding: 40px 0;
+}
+
+.img_item {
+    border: 3px solid #ffb114;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.img_item:hover {
+    border: 3px solid #5d3538;
+}
+
+.img_item img {
+    width: 100%;
+}
+
+.texture {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #ffb114;
+    border-radius: 50%;
+}
+
+.texture:hover {
+    border: 3px solid #5d3538;
+}
+
+.texture {
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.circle_row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.line {
+    height: 90px;
+    border: 2px solid #00000073;
+    margin: 0 20px;
+}
+
+#big {
+    width: 100%;
+}
+
+#big_img {
+    padding: 40px 0;
+}
+
+.texture img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.tabs-links {
+    background: #d9dada;;
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    border-radius: 26px 26px 0 0;
+    border: 2px solid #898989b3;
+    border-bottom: 0;
+}
+
+.tabs-links li {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px;
+    /* height: 63px; */
+    text-align: center;
+    border-radius: 26px 26px 0 0;
+}
+.tabs-links span{
+    font-size: 27px;
+}
+
+.tabs-links li:hover {
+    border-radius: 26px 26px 0 0;
+    background: #fff;
+}
+
+.tabs-content {
+    width: 100%;
+    margin: 0;
+    border: 2px solid #00000036;
+    border-top: 0;
+    height: 212px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.tabs-content li {
+    display: none;
+    transition: all 0.5s ease-in;
+}
+
+.tabs-content li:first-child {
+    display: block;
+}
+
+.slider {
+    width: 1163px;
+    overflow: hidden;
+    height: 94px;
+    margin: 31px 0 0 0;
+    display: none;
+}
+
+.wrapper {
+    width: 2500px;
+    position: absolute;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.wrapper img {
+    float: left;
+    width: 300px;
+}
+
+.wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.line2 {
+    height: 35px;
+    border: 2px solid #00000073;
+    margin: 0 20px;
+}
+
+.pricer {
+    padding: 16px 10px 20px 0;
+    overflow: hidden;
+}
+.circle_item h4{
+    cursor: pointer;
+}
+.active{
+    background: white;
+}
+
